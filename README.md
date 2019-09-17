@@ -5,6 +5,7 @@ Solutions and implementations of hackerrank problems in Go.
 
 - [x] **Classics**:
     - [x] : [FizzBuzz](https://www.hackerrank.com/challenges/fizzbuzz/submissions/code/123438696)
+    - [x] : [LeftRotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation)
 
 
 ## LICENCE
