@@ -43,12 +43,16 @@ When we perform  left rotations, the array undergoes the following sequence of c
 */
 func RotLeft(a []int32, d int32) []int32 {
 	size1 := int32(len(a))
+	// Case when array size is bigger than d.
+	// Then we just grab the first d items and push them at the end of the rest
 	if size1 > d {
 		first := a[:d]
 		rest := a[d:]
 		res := append(rest, first...)
 		return res
 	}
+	// Case when when array size is smalled than d.
+	// We just take array size modulo d and do the same thing as before.
 	div := d % size1
 	first := a[:div]
 	rest := a[div:]

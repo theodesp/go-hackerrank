@@ -37,14 +37,20 @@ b: a string
  Return sum that denotes the minimum amount of chars to make the 2 strings anagrams => having the same freq table.
  */
 func MakeAnagram(a string, b string) int32 {
+	// Step 1. Calculate freq table of a
 	count := int32(0)
 	frequencies := make(map[rune]int32)
 	for _, val := range a {
 		frequencies[val] = frequencies[val] + 1
 	}
+
+	// Step 2. Calculate freq table of a - b
 	for _, val := range b {
 		frequencies[val] = frequencies[val] - 1
 	}
+
+	// Step 3. We will need to add all the absolute values to
+	// find the minimum number of removals so that a and b will have the same freq table
 	for _, val := range frequencies {
 		if val < 0 {
 			count += -(val)

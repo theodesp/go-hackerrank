@@ -43,10 +43,6 @@ in the editor below.
  */
 
 func PrintLinkedList(head *SinglyLinkedListNode) {
-	if head.next == nil {
-		fmt.Println(head.data)
-		return
-	}
 	for head != nil {
 		fmt.Println(head.data)
 		head = head.next
