@@ -9,5 +9,9 @@ Solutions and implementations of hackerrank problems in Go.
     - [x] : [MakeAnagrams](https://www.hackerrank.com/challenges/ctci-making-anagrams/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=strings)
     - [x] : [Fibonacci]
 
+- [x] **Lists**:
+    - [x] : [PrintListItems](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem)
+    
+
 ## LICENCE
 Copyright © 2019 Theo Despoudis MIT license
