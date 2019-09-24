@@ -11,6 +11,9 @@ Solutions and implementations of hackerrank problems in Go.
 
 - [x] **Lists**:
     - [x] : [PrintListItems](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem)
+
+- [x] **Warmups**:
+    - [x] : [Kangaroos](https://www.hackerrank.com/challenges/kangaroo/problem)
     
 
 ## LICENCE
